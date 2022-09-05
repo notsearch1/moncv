@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="En recherche active  - Poste de développeur ou intégrateur: HTML, CSS, JavaScript, React, PHP, Symfony"
+    />
+    <link rel="icon" href="ressources/cv.png" />
+    <title>CV Développeuse front-end</title>
+    <script
+      src=" https://kit.fontawesome.com/846f9ba25e.js "
+      crossorigin=" anonyme "
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="#accueil">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pres">Présentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#port">Réalisations</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section Accueil -->
+
+    <section class="accueil" id="accueil">
+      <h1> <span class="welcome">Bienvenue</span>  sur mon portfolio</h1>
+      <p class="txt-animation"></p>
+      <a href="ressources/cv.pdf" download="cvElodie" class="btn-acc btn-acc1"
+        >Télécharger mon CV</a
+      >
+      <a href="mailto:elodie.agoutin1206@gmail.com" class="btn-acc btn-acc2"
+        >Me contacter</a
+      >
+
+      <div class="medias">
+        <a href="https://github.com/notsearch1" target="blank">
+          <div class="media media1">
+            <img
+              src="ressources/github.svg"
+              alt="github icone"
+              class="icone-medias"
+            />
+          </div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/elodie-a-6895291b5/"
+          target="blank"
+        >
+          <div class="media media2">
+            <img
+              src="ressources/linkedin.svg"
+              alt="linkedin icone"
+              class="icone-medias"
+            />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Section Présentation -->
+
+    <section class="presentation" id="pres">
+      <div class="container-presentation">
+        <div class="pres-gauche">
+          <h3>Me connaître en quelques mots!</h3>
+          <hr />
+          <p>
+            Curieuse de tout, j’aime glaner les informations et me les
+            approprier. Ma reconversion dans le domaine du développement a pour
+            but de vivre ma curiosité au quotidien. <br />
+            Je cherche avant tout un environnement de travail qui saura me
+            stimuler et être en accord avec ma personnalité.<br />
+            Au-delà de la formation, je suis reconnue dans le cadre
+            professionnel pour mon esprit d’analyse, ma réactivité, mon
+            autonomie et mon esprit d’équipe.
+          </p>
+          <br />
+          <p>Petit plus non négligeable : sourires illimités !</p>
+        </div>
+        <div class="pres-droite">
+          <img
+            src="ressources/elo.jpg"
+            alt="photo de profil d'Elodie"
+            id="profil"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="else">
+      <div class="illustration">
+        <img src="ressources/pres-pict.jpg" alt="" />
+        <h3>Nature</h3>
+      </div>
+      <div class="illustration">
+        <img src="ressources/pres-pict2.jpg" alt="" />
+        <h3>Cuisine</h3>
+      </div>
+      <div class="illustration">
+        <img src="ressources/pres-pict3.jpg" alt="" />
+        <h3>Bricolage</h3>
+      </div>
+    </section>
+
+    <!-- skILLS -->
+    <section id="skills">
+      <div class="skills-container">
+        <h2 class="skills-title">Compétences</h2>
+        <div id="frontend">
+          <div class="skill-item">
+            <h4 class="skill-item-title violet">Front-end</h4>
+            <div class="skill-item-text">
+              Création et intégration de sites web et applications mobiles
+              responsive, accessibles et répondant aux normes W3C.
+            </div>
+            <div class="columns">
+              <div class="column1">
+                <div class="space-between">
+                  <div class="skill-name">
+                    HTML5<br />
+                    CSS3<br />
+                    JavaScript<br />
+                    jQuery<br />
+                  </div>
+                  <div class="stars violet">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><br />
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><br />
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="far fa-star"></i
+                    ><br />
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="far fa-star"></i
+                    ><br />
+                  </div>
+                </div>
+              </div>
+              <div class="column2">
+                <div class="space-between">
+                  <div class="skill-name">
+                    JSON<br />
+                    React JS<br />
+                    Bootstrap<br />
+                    SASS<br />
+                  </div>
+                  <div class="stars violet">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="far fa-star"></i
+                    ><br />
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star-half-alt"></i
+                    ><i class="far fa-star"></i><br />
+
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="far fa-star"></i
+                    ><br />
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="far fa-star"></i
+                    ><br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item-icon violet"><i class="fas fa-code"></i></div>
+        </div>
+
+        <div id="backend">
+          <div class="skill-item-icon green">
+            <i class="fas fa-database"></i>
+          </div>
+
+          <div class="skill-item">
+            <h4 class="skill-item-title green">Back-end</h4>
+
+            <div class="skill-item-text">
+              Développement de sites web et applications, création et gestion de
+              bases de données, programmation orientée objet, mise en ligne.
+            </div>
+
+            <div class="columns space-between">
+              <div class="column1">
+                <div class="space-between">
+                  <div class="skill-name">
+                    PHP7<br />
+                    MySQL<br />
+                  </div>
+                  <div class="stars green">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="far fa-star"></i
+                    ><br />
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i
+                    ><i class="fas fa-star-half-alt"></i><br />
+                  </div>
+                </div>
+              </div>
+              <div class="column2">
+                <div class="space-between">
+                  <div class="skill-name">Symfony <br /></div>
+                  <div class="stars green">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="far fa-star"></i
+                    ><br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="cms">
+          <div class="skill-item">
+            <h4 class="skill-item-title blue">CMS</h4>
+
+            <div class="skill-item-text">Création de sites vitrines.</div>
+
+            <div class="columns space-between">
+              <div class="column1">
+                <div class="space-between">
+                  <div class="skill-name">WordPress<br /></div>
+                  <div class="stars blue">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item-icon blue">
+            <i class="fas fa-user-edit"></i>
+          </div>
+        </div>
+
+        <div id="web-design">
+          <div class="skill-item-icon yellow">
+            <i class="fas fa-pencil-ruler"></i>
+          </div>
+
+          <div class="skill-item">
+            <h4 class="skill-item-title yellow">Web design</h4>
+
+            <div class="skill-item-text">
+              Création de maquettes sur Figma,Photoshop et HTML, ainsi que de
+              prototypes fonctionnels. Conception centrée utilisateur selon les
+              règles d'UX lors de la création d'une interface utilisateur.
+            </div>
+
+            <div class="columns space-between">
+              <div class="column1">
+                <div class="space-between">
+                  <div class="skill-name">
+                    Photoshop<br />
+                    Figma
+                  </div>
+                  <div class="stars yellow">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="far fa-star"></i
+                    ><br />
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><br />
+                  </div>
+                </div>
+              </div>
+              <div class="column2">
+                <div class="space-between">
+                  <div class="skill-name">
+                    Maquettage<br />
+                    Prototypage
+                  </div>
+                  <div class="stars yellow">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i
+                    ><i class="fas fa-star-half-alt"></i><br />
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="environnement">
+          <div class="skill-item">
+            <h4 class="skill-item-title grey">Environnement de travail</h4>
+
+            <div class="">
+              <i class="fas fa-desktop"></i>
+              <b>Systèmes d'exploitation :</b> Windows 10, Mac OS<br />
+              <i class="fas fa-terminal"></i> <b>Workflow :</b> Git, XAMP,
+              Chrome, FileZilla<br />
+              <i class="fas fa-code"></i> <b>IDE :</b> Visual Studio Code,
+              PHPStorm
+              <br />
+              <i class="fas fa-user-tie"></i> <b>Savoir-être :</b> capacité
+              d'adaptation, créativité, travail en équipe, organisation,
+              rigueur, force de proposition
+            </div>
+          </div>
+
+          <div class="skill-item-icon grey"><i class="fas fa-mug-hot"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Portfolio -->
+
+    <section class="portfolio" id="port">
+      <h2 class="titre-port">Mes réalisations</h2>
+
+      <div class="cont-portfolio">
+        <div class="item">
+          <div class="cont-img-port">
+              <img src="ressources/booki.png" alt="img portfolio" />
+          </div>
+          <hr>
+          <div class="cont-text">
+            <h3>Booki</h3>
+            <p>
+            HTML5 - CSS3
+            </p>
+            <hr>
+            <ul>
+              <li>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/notsearch1/booki" target="blank">Voir le code 
+                </a>
+              </li>
+              <li>
+                <a href="https://notsearch1.github.io/booki/"><i class="fa-sharp fa-solid fa-desktop"></i> Voir le site</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cont-img-port">
+              <img src="ressources/tesla.png" alt="img portfolio" />
+          </div>
+          <hr>
+          <div class="cont-text">
+            <h3>Tesla</h3>
+            <p>
+              HTML5 - CSS3 - GIT - VSCODE
+            </p>
+            <hr>
+            <ul>
+              <li>
+                <a href="https://github.com/notsearch1/tesla" target="blank">
+                  <i class="fa-brands fa-github"></i> Voir le code
+                </a>
+              </li>
+              <li>
+                <a href="https://notsearch1.github.io/tesla/"><i class="fa-sharp fa-solid fa-desktop"></i> Voir le site</a>
+              </li>
+            </ul>
+          </div>  
+        </div>
+        <div class="item">
+          <div class="cont-img-port">
+              <img src="ressources/gameone.png" alt="img portfolio" />
+          </div>
+          <hr>
+          <div class="cont-text">
+            <h3>Game One</h3>
+            <p>
+              HTML5 - CSS3 - JS - GIT - VSCODE
+            </p>
+            <hr>
+            <ul>
+              <li>
+                <a href="https://github.com/notsearch1/GameOne" target="blank">
+                  <i class="fa-brands fa-github"></i> Voir le code
+                </a>
+              </li>
+              <li>
+                <a href="https://notsearch1.github.io/GameOne/"><i class="fa-sharp fa-solid fa-desktop"></i> Voir le site</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cont-img-port">
+              <img src="ressources/fisheye.png" alt="img portfolio" />
+          </div>
+          <hr>
+          <div class="cont-text">
+            <h3>Fisheye</h3>
+            <p>
+              HTML5 - CSS3 - SAAS - JS - GIT - VSCODE
+            </p>
+            <hr>
+            <ul>
+              <li>
+                <a href="https://github.com/notsearch1/fisheye" target="blank">
+                  <i class="fa-brands fa-github"></i> Voir le code
+                </a>
+              </li>
+              <li>
+                <a href="https://notsearch1.github.io/fisheye/"><i class="fa-sharp fa-solid fa-desktop"></i> Voir le site</a>
+              </li>
+            </ul>
+          </div>
+        </div> 
+        <div class="item">
+          <div class="cont-img-port">
+              <img src="ressources/kasa.png" alt="img portfolio" />
+          </div>
+          <hr>
+          <div class="cont-text">
+            <h3>Kasa</h3>
+            <p>
+              HTML5 - CSS3 - REACT - GIT - VSCODE
+            </p>
+            <hr>
+            <ul>
+              <li>
+                <a href="https://github.com/notsearch1/kasa" target="blank">
+                  <i class="fa-brands fa-github"></i> Voir le code
+                </a>
+              </li>
+              <li>
+                <a href="https://notsearch1.github.io/kasa/"><i class="fa-sharp fa-solid fa-desktop"></i> Voir le site</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cont-img-port">
+              <img src="ressources/pictopicto.png" alt="img portfolio" />
+          </div>
+          <hr>
+          <div class="cont-text">
+            <h3>Picto Picto</h3>
+            <p>
+              HTML5 - CSS3 - SYMFONY5 - MARIAB - TWIG - PHPStorm
+            </p>
+            <hr>
+            <ul>
+              <li>
+                <a href="https://github.com/notsearch1/pictopicto" target="blank">
+                  <i class="fa-brands fa-github"></i> Voir le code
+                </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-sharp fa-solid fa-desktop"></i> Voir une démo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cont-img-port">
+              <img src="ressources/screencv.png" alt="img portfolio" />
+          </div>
+          <hr>
+          <div class="cont-text">
+            <h3>Mon cv en ligne</h3>
+            <p>
+              HTML5 - CSS3 - Bootstrap - JS
+            </p>
+            <hr>
+            <ul>
+              <li>
+                <a href="https://github.com/notsearch1/moncv" target="blank">
+                  <i class="fa-brands fa-github"></i> Voir le code
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cont-img-port">
+              <img src="ressources/traiteur.png" alt="img portfolio" />
+          </div>
+          <hr>
+          <div class="cont-text">
+            <h3>San antonio traiteur</h3>
+            <p>
+              HTML5 - CSS3 - SYMFONY5 - MARIAB - TWIG - PHPStorm
+            </p>
+            <hr>
+           <p>Projet en cours</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>Tout Droits réservés &copy;</footer>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
